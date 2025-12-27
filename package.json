@@ -1,0 +1,39 @@
+{
+  "name": "bpa-cap",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "dependencies": {
+    "@sap-cloud-sdk/http-client": "^4.2.0",
+    "@sap-cloud-sdk/resilience": "^4.2.0",
+    "@sap/cds": "^9",
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "express": "^4",
+    "qs": "^6.14.0"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2",
+    "cds-plugin-ui5": "^0.13.0"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-auditor": "cds watch --open auditor/index.html?sap-ui-xx-viewCache=false --livereload false"
+  },
+  "private": true,
+  "cds": {
+    "requires": {
+      "sap_bpa": {
+        "kind": "rest",
+        "credentials": {
+          "destination": "sap_bpa"
+        }
+      }
+    }
+  },
+  "workspaces": [
+    "app/*"
+  ],
+  "sapux": [
+    "app/auditor"
+  ]
+}

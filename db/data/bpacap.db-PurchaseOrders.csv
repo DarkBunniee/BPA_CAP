@@ -1,0 +1,5 @@
+
+ID,poid,pocode,potypes,pocategory,poquan,ponetamount,poitem,podescripion,podeliverydate,posubcategory,is_active,is_dbstatus,is_changed,Approver,Approver_status,createdAt,createdBy,modifiedAt,modifiedBy
+1,U101,UST,A,UST,10,1300000,HHF,FFFF,2025-12-12,vvtv,false,false,false,Approver 01,Approved,2025-12-01T10:00:00Z,system,2025-12-01T10:00:00Z,system
+2,U102,UST,B,RAW,25,750000,LAP,Office Laptops,2025-12-20,IT,false,false,false,Approver 02,Pending,2025-12-02T11:30:00Z,system,2025-12-02T11:30:00Z,system
+3,U103,UST,A,SERV,5,250000,CONS,Consulting Services,2025-12-25,Services,false,true,false,Approver 03,Rejected,2025-12-03T09:15:00Z,system,2025-12-03T09:15:00Z,system

@@ -1,0 +1,13 @@
+{
+  "cds": {
+    "requires": {
+      "sap_bpa": {
+        "kind": "rest",
+        "credentials": {
+          "url": "https://spa-api-gateway-bpi-us-prod.cfapps.us10.hana.ondemand.com",
+          "path": "/workflow/rest/v1"
+        }
+      }
+    }
+  }
+}
