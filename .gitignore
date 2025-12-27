@@ -32,3 +32,11 @@ mta_archives/
 
 # @cap-js/cds-typer
 @cds-models
+
+.env
+
+.cdsrc.json
+
+db.sqlite
+
+test.http
